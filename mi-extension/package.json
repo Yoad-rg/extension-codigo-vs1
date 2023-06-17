@@ -1,0 +1,26 @@
+{
+  "name": "mi-extension",
+  "displayName": "mi-extension",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Extenxion Codigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Extenxion Codigo-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/Yoad-rg/extension-codigo-vs.git",
+    "type": "git"
+  },
+  "publisher": "codigo-tecsup"
+}
